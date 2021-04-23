@@ -1,0 +1,27 @@
+{
+  "name": "musicgame",
+  "version": "1.0.0",
+  "description": "A game for guessing lyrics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tselmegbaasan/musicGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tselmegbaasan/musicGame/issues"
+  },
+  "homepage": "https://github.com/tselmegbaasan/musicGame#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "react-router-dom": "^5.2.0",
+    "sequelize": "^5.21.12",
+    "sqlite3": "^5.0.0"
+  }
+}
