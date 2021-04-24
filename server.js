@@ -43,7 +43,7 @@ const app = express();
 app.use(express.json());
 
 var corsConfig = {
-    origin: "https://sheltered-journey-68477.herokuapp.com/"
+    origin: "https://sheltered-journey-68477.herokuapp.com"
 };
 
 app.use(cors(corsConfig));
